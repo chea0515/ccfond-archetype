@@ -1,0 +1,11 @@
+server:
+  port: 1234
+  servlet:
+    context-path: /archetype
+
+spring:
+  application:
+    name: archetype
+  profiles:
+    active: dev
+
