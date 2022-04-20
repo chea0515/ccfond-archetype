@@ -24,7 +24,7 @@
         <mybatis-plus.version>3.5.1</mybatis-plus.version>
         <alibaba-druid.version>1.2.9</alibaba-druid.version>
 
-        <webchat.version>1.0.0</webchat.version>
+        <archetype.version>1.0.0</archetype.version>
     </properties>
 
     <dependencyManagement>
@@ -74,13 +74,13 @@
             <dependency>
                 <groupId>com.ccfond.archetype</groupId>
                 <artifactId>archetype-api</artifactId>
-                <version>${webchat.version}</version>
+                <version>${archetype.version}</version>
             </dependency>
 
             <dependency>
                 <groupId>com.ccfond.archetype</groupId>
                 <artifactId>archetype-core</artifactId>
-                <version>${webchat.version}</version>
+                <version>${archetype.version}</version>
             </dependency>
 
         </dependencies>

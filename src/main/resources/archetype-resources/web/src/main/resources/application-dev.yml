@@ -18,9 +18,9 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.postgresql.Driver
-    username: webchat
-    password: 123456
-    url: jdbc:postgresql://localhost:5432/webchat
+    username: archetype
+    password: 12345678
+    url: jdbc:postgresql://localhost:5432/archetype
 
   #jpa:
   #  database-platform: org.hibernate.dialect.PostgreSQL9Dialect
